@@ -1,95 +1,48 @@
-# Suraj Yadav - Frontend Engineer Portfolio
+# Portfolio
 
-A clean, minimal portfolio website optimized for GitHub Pages hosting.
+Professional portfolio showcasing frontend engineering expertise with Angular and GenAI.
 
-## 🚀 Deploy to GitHub Pages (FREE)
+**Live Site:** https://surajy93.github.io/portfolio/
 
-### Step 1: Create GitHub Repository
+## Quick Start
 
-1. Go to [GitHub](https://github.com/new)
-2. Name it `YOUR_USERNAME.github.io` (replace with your actual GitHub username)
-3. Set to **Public**
-4. Click "Create repository"
-
-### Step 2: Push Your Code
-
+View locally:
 ```bash
-cd /Users/surajy/WebstormProjects/SurajPortfolio
-
-# Configure git (first time only)
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
-
-# Add remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
-
-# Push to GitHub
-git add .
-git commit -m "Initial commit: Portfolio"
-git branch -M main
-git push -u origin main
+python3 -m http.server 8000
+# Open http://localhost:8000
 ```
 
-### Step 3: Enable GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click **Settings** → **Pages**
-3. Under "Branch", select `main`
-4. Click **Save**
-
-### Step 4: View Your Portfolio 🎉
-
-Visit: `https://YOUR_USERNAME.github.io`
-
-Your portfolio is now live!
-
----
-
-## 📁 Files
-
-- `index.html` - Portfolio content
-- `style.css` - Styling and animations
-- `README.md` - This file
-
-## 🎨 Customization
-
-### Update Content
-
-Edit `index.html` to:
-- Change your name and bio
-- Update projects and experience
-- Modify contact links
-
-### Change Colors
-
-Edit `style.css` to customize:
-- Color scheme (search for `#2563eb` to find blue theme)
-- Typography and spacing
-- Animations
-
-## 🔄 Making Updates
-
-After deployment, to update your portfolio:
+## Deploy Updates
 
 ```bash
 git add .
-git commit -m "Update: description of changes"
+git commit -m "Update: description"
 git push
 ```
 
-Changes go live in ~1 minute!
+Changes go live in ~1 minute via GitHub Pages.
 
-## 🧪 Local Preview
+## Tech Stack
 
-```bash
-# Python 3
-python3 -m http.server 8000
+- HTML5 + CSS3
+- Inter font (Google Fonts)
+- No build process required
+- GitHub Pages hosting
 
-# Then open: http://localhost:8000
-```
+## Features
 
-## 📧 Contact
+- Clean, professional design
+- Angular & GenAI expertise highlighted
+- Mobile responsive
+- Fast loading
+- SEO optimized
+
+## Contact
 
 - Email: surajyr93@gmail.com
-- GitHub: [github.com/surajy93](https://github.com/surajy93)
-- LinkedIn: [linkedin.com/in/surajy93](https://linkedin.com/in/surajy93)
+- GitHub: [surajy93](https://github.com/surajy93)
+- LinkedIn: [surajy93](https://linkedin.com/in/surajy93)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file
