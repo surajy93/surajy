@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --bg-white: #ffffff;
+    --bg-gray: #f9fafb;
+    --border-gray: #e5e7eb;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #f0f9ff 50%, #f8fafc 100%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 24px;
+}
+
+/* Hero Section */
+.hero {
+    margin-bottom: 64px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--bg-white);
+    border: 2px solid var(--border-gray);
+    border-radius: 8px;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.links a:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: #eff6ff;
+}
+
+/* Sections */
+section {
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.lead {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+
+p {
+    line-height: 1.75;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+
+ul li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    line-height: 1.75;
+    color: var(--text-secondary);
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 8px;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Callout Cards */
+.callout {
+    background: var(--bg-gray);
+    border-left: 3px solid var(--primary);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.2s ease;
+}
+
+.callout:hover {
+    background: #f3f4f6;
+    transform: translateX(4px);
+}
+
+.callout strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.callout p {
+    margin: 0;
+    color: var(--text-secondary);
+}
+
+/* Skills/Tags */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--bg-gray);
+    border: 1px solid var(--border-gray);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+    background: #eff6ff;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.125rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .links a {
+        justify-content: center;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+    background: #dbeafe;
+    color: var(--text-primary);
+}

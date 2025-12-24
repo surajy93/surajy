@@ -1,0 +1,19 @@
+# Node modules
+yarn-debug.log*
+npm-debug.log*
+# Logs
+
+build/
+dist/
+# Build
+
+.DS_Store
+*~
+*.swo
+*.swp
+.vscode/
+.idea/
+# IDE
+
+node_modules/
+
