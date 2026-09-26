@@ -635,6 +635,17 @@ a:focus-visible {
 }
 
 @media (max-width: 850px) {
+    .section-heading-row {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .section-heading-row > .section-intro {
+        max-width: 620px;
+        margin-bottom: 0;
+    }
+
     .hero {
         min-height: auto;
         grid-template-columns: 1fr;
@@ -721,12 +732,6 @@ a:focus-visible {
 
     .section {
         padding-block: 76px;
-    }
-
-    .section-heading-row {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 12px;
     }
 
     .pr-card {
