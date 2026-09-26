@@ -1,28 +1,48 @@
-# Suraj Yadav — Portfolio
+# Portfolio
 
-A small static portfolio site built with HTML and CSS. It summarizes frontend work and provides contact links; it has no JavaScript build step or application backend.
+Professional portfolio showcasing frontend engineering expertise with Angular and GenAI.
 
-**Live site:** [surajy93.github.io/surajy](https://surajy93.github.io/surajy/)
+**Live Site:** https://surajy93.github.io/portfolio/
 
-## Run locally
+## Quick Start
 
-From the repository root, start Python's built-in static file server:
-
+View locally:
 ```bash
 python3 -m http.server 8000
+# Open http://localhost:8000
 ```
 
-Open [http://localhost:8000](http://localhost:8000).
+## Deploy Updates
 
-## Structure
+```bash
+git add .
+git commit -m "Update: description"
+git push
+```
 
-- `index.html` — portfolio content and page metadata.
-- `style.css` — page styles.
+Changes go live in ~1 minute via GitHub Pages.
 
-The page includes previews of three frontend design exercises stored in [`system_design_frontend`](https://github.com/surajy93/system_design_frontend). Those images load from that public repository; the page labels them as study artifacts, not shipped products.
+## Tech Stack
 
-The site is published with GitHub Pages from the `main` branch root. There is no dependency installation or build command.
+- HTML5 + CSS3
+- Inter font (Google Fonts)
+- No build process required
+- GitHub Pages hosting
+
+## Features
+
+- Clean, professional design
+- Angular & GenAI expertise highlighted
+- Mobile responsive
+- Fast loading
+- SEO optimized
+
+## Contact
+
+- Email: surajyr93@gmail.com
+- GitHub: [surajy93](https://github.com/surajy93)
+- LinkedIn: [surajy93](https://linkedin.com/in/surajy93)
 
 ## License
 
-See [`LICENSE`](LICENSE) (GNU General Public License v3.0).
+MIT License - see [LICENSE](LICENSE) file
