@@ -19,6 +19,8 @@ Open [http://localhost:8000](http://localhost:8000).
 - `index.html` — portfolio content and page metadata.
 - `style.css` — page styles.
 
+The page includes previews of three frontend design exercises stored in [`system_design_frontend`](https://github.com/surajy93/system_design_frontend). Those images load from that public repository; the page labels them as study artifacts, not shipped products.
+
 The site is published with GitHub Pages from the `main` branch root. There is no dependency installation or build command.
 
 ## License
