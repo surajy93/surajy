@@ -4,6 +4,14 @@ A small static portfolio site built with HTML and CSS. It summarizes frontend wo
 
 **Live site:** [surajy93.github.io/surajy](https://surajy93.github.io/surajy/)
 
+## Recruiter links
+
+- [LinkedIn](https://www.linkedin.com/in/surajy93/)
+- [GitHub profile](https://github.com/surajy93)
+- [Merged Angular contribution](https://github.com/angular/angular/pull/68290)
+- [Merged Angular Domino contribution](https://github.com/angular/domino/pull/34)
+- [Email](mailto:surajyr93@gmail.com)
+
 ## Run locally
 
 From the repository root, start Python's built-in static file server:
